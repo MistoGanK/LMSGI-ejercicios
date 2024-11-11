@@ -26,7 +26,6 @@ header ul {
 ul li {
   display: inline-block;
   height: 100%;
-  vertical-align: middle;
   font-size: 17px;
 }
 h1{
@@ -41,9 +40,9 @@ article{
 article a {
   display: inline-block;
   line-height: 60px; /* Matches the height of the article to center vertically */
-  vertical-align: middle;
   font-size: 18px;
   color: #cccccc;
+  width: 100%;
 }
 article:hover{
   background-color:#31363b;
@@ -55,7 +54,6 @@ footer{
 footer ul li{
   display: inline-block;
   height: 50px;
-  vertical-align: middle;
   font-size: 11px;
 }
 footer ul{
