@@ -23,6 +23,9 @@ header ul {
   height: 100%;
   line-height: 80px; /* Igual que la altura del header */
 }
+header ul li p{
+  line-height: 80px;
+}
 ul li {
   display: inline-block;
   height: 100%;
