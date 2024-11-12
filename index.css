@@ -21,14 +21,14 @@ header img{
 }
 header ul {
   height: 100%;
-  line-height: 80px; /* Igual que la altura del header */
-}
-header ul li p{
   line-height: 80px;
 }
-ul li {
+header ul li{
   display: inline-block;
+}
+ul li {
   height: 100%;
+  vertical-align: middle;
   font-size: 17px;
 }
 h1{
@@ -42,7 +42,7 @@ article{
 }
 article a {
   display: inline-block;
-  line-height: 60px; /* Matches the height of the article to center vertically */
+  line-height: 60px;
   font-size: 18px;
   color: #cccccc;
   width: 100%;
